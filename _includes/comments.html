@@ -7,12 +7,12 @@
     el: '#vssue',
     render: h => h('Vssue', {
       props: {
-        title: '{{ post.title }}',
         options: {
           owner: 'heartnn',
           repo: 'hbzb',
           clientId: '82f125bdda0753ec5c24',
           clientSecret: '22f5d99e277197c02b6294e5371b22e239fcd46f',
+          autoCreateIssue: true,
         },
       }
     })
