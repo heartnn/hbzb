@@ -1,16 +1,20 @@
-<div id="lv-container" data-id="city" data-uid="MTAyMC8yNjcwMy8zMjkz">
-<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
+<div id="vssue"></div>
+<script src="https://cdn.staticfile.org/vue/2.6.14/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/meteorlxy/vssue@1.4.8/packages/vssue/dist/vssue.github.min.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/gh/meteorlxy/vssue@1.4.8/packages/vssue/dist/vssue.github-v4.min.js"></script> -->
+<script>
+  new Vue({
+    el: '#vssue',
+    render: h => h('Vssue', {
+      props: {
+        title: '{{ post.title }}',
+        options: {
+          owner: 'heartnn',
+          repo: 'hbzb',
+          clientId: '82f125bdda0753ec5c24',
+          clientSecret: '22f5d99e277197c02b6294e5371b22e239fcd46f',
+        },
+      }
+    })
+  })
 </script>
-<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
