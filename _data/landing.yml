@@ -1,0 +1,21 @@
+# index page sections
+# custom following lines to edit your index page
+- id: about
+  name: 公司简介
+  tpl: /about.html
+  css:
+
+- id: projects
+  name: 承接项目
+  tpl: /projects.html
+  css: project
+
+- id: articles
+  name: 洁净百科
+  tpl: /articles.html
+  css: 
+
+- id: links
+  name: 联系方式
+  tpl: /links.html
+  css: contact

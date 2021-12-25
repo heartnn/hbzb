@@ -1,0 +1,23 @@
+# blog page sections
+
+# edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
+- name: 所有文章
+  href: /articles/
+
+- name: 净化工程
+  href: /净化工程/
+
+- name: 行业标准
+  href: /行业标准/
+
+- name: 产品展示
+  href: /产品展示/
+
+- name: 解决方案
+  href: /解决方案/
+
+- name: 施工现场
+  href: /施工现场/
+
+- name: 相关文献
+  href: /相关文献/

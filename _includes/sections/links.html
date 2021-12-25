@@ -1,0 +1,51 @@
+<div class="container" id="i18_link">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="link.link">联系方式</span></h1>
+        </div>
+    </div>
+    <div class="row">
+    {% for link in site.data.index.links %}
+        {% assign loopindex = forloop.index | modulo: 3 %}
+        {% if forloop.last %}
+            {% if forloop.last == forloop.first %}
+        <div class="col-sm-4 col-sm-offset-4">
+            {% endif %}
+        {% else %}
+        <div class="col-sm-4">
+        {% endif %}
+        <div class="team-member">
+            <h4><span class="navy">{{ link.last_name }}</span> {{ link.first_name }}</h4>
+            {% if link.desc != NULL %}<p>{{ link.desc }}</p>{% endif %}
+            <ul class="list-inline social-icon">
+			    {% if link.website != NULL %}
+                <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a>
+                </li>
+				{% endif %}
+				{% if link.email != NULL %}
+                <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a>
+                </li>
+				{% endif %}
+            </ul>
+        </div>
+        </div>
+    {% endfor %}
+    </div>
+	<div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+            <p><strong>友情链接</strong>：
+			  <a href="https://hbzbjh.bmlink.com/" rel="external" rel="nofollow">建材网</a> 
+			  | <a href="https://hbzb.atobo.com/" rel="external" rel="nofollow">阿土伯交易网</a>
+			  | <a href="https://b2b.huangye88.com/qiye2163930/" rel="external" rel="nofollow">黄页88</a>
+			  | <a href="https://shijiazhuang0289891.11467.com/" rel="external" rel="nofollow">顺企网</a>
+			</p>
+			<p>河北筑邦净化倾诚为您提供河北省内（石家庄、保定、衡水、邢台、邯郸、廊坊、沧州、张家口、承德、唐山、秦皇岛）以及北京、天津、山西、河南、山东等地净化工程（净化厂房、净化车间、洁净手术室、洁净实验室、通风工程等）的设计和施工</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+        </div>
+    </div>
+</div>

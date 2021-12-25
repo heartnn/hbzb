@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /search/cb-search.json
+Sitemap: http://www.hb-zb.com/sitemap.xml

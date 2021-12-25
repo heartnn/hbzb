@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: 河北筑邦净化设备安装工程有限公司
+description: 河北筑邦净化是专业从事净化工程、洁净手术室、洁净实验室、净化厂房、净化车间、中央空调工程设计、建设和技术改造的企业。服务地区涵盖石家庄、保定、衡水、邢台、邯郸、廊坊、沧州、张家口、承德、唐山、秦皇岛及北京、天津、山西、河南、山东等地。
+keywords: 净化车间,净化厂房,净化工程,洁净手术室,洁净实验室,新风系统,通风工程,空气过滤
+baseurl: 
+url: https://www.hb-zb.com/
+img_path: static/assets/img/blog  # url should be changed to '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: 筑邦净化  # Be used at blog posts' author.
+  first_name: 筑邦  # Be used at index page about me section.
+  last_name: 净化  # Be used at index page about me section.
+  cv:   # A online CV can be printed as PDF, leave blank if you don't have now
+  email: zb@hb-zb.com
+  avatar: static/assets/img/logo.jpg
+  skill_icon1:
+    - name:
+    - name:
+  skill_icon2:
+    - name:
+    - name:
+  desc: 河北筑邦净化设备安装工程有限公司 | 联系电话：0311-81558647
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

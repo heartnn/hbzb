@@ -1,0 +1,17 @@
+# projects section data
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: 净化厂房
+  img: /static/assets/img/landing/changfang.jpg
+  desc: 净化厂房主要用途是防止产品和洁净区受到微生物污染，其所提供的空气质量将直接影响在该环境中生产药品的微粒和微生物污染的水平，进而直接影响药品生产的质量。
+
+- name: 净化车间
+  img: /static/assets/img/landing/chejian.jpg
+  desc: 净化车间的主要作用在于控制产品（如硅芯片等）所接触的大气的洁净度以及温湿度，使产品能在一个良好之环境空间中生产、制造，此空间我们称之为净化车间。
+
+- name: 洁净手术室
+  img: /static/assets/img/landing/shoushushi.jpg
+  desc: 层流手术室是采用空气洁净技术对微生物污染采取程度不同的控制，达到控制空间环境中空气洁净度适于各类手术之要求；并提供适宜的温、湿度，创造一个洁净舒适的手术空间环境。
+
+- name: 洁净实验室
+  img: /static/assets/img/landing/shiyanshi.jpg
+  desc: 无菌试验室主要用于微生物学、生物医学、生物化学、动物实验、基因重组以及生物制品等研究使用的实验室统称洁净实验室。
